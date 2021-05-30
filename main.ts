@@ -16,11 +16,11 @@ radio.onReceivedNumber(function (receivedNumber) {
     } else if (Item == 5) {
         Color.showColor(neopixel.colors(NeoPixelColors.Red))
     } else if (Item == 6) {
-        maqueen.servoRun(maqueen.Servos.S1, 150)
+        maqueen.servoRun(maqueen.Servos.S1, 60)
     } else if (Item == 7) {
         Color.showColor(neopixel.colors(NeoPixelColors.Yellow))
     } else if (Item == 8) {
-        maqueen.servoRun(maqueen.Servos.S1, 10)
+        maqueen.servoRun(maqueen.Servos.S1, 120)
     } else if (Item == 9) {
         Color.showColor(neopixel.colors(NeoPixelColors.Black))
     }
